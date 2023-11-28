@@ -1,0 +1,614 @@
+.offer-main-con{
+    width: 88%;
+    padding: 2%;
+    height: fit-content;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+/* /////////// offer list css  */
+.offer-list-con{
+    margin-top: 20px;
+    width:100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer-list-con h1{
+    align-self: flex-end;
+    font-size: 1.6rem;
+    margin-right: 10px;
+}
+.offer-item-con{
+    margin-top: 10px;
+    width:90%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #006d77 solid 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    border-radius: 10px;
+}
+.offer-item-details{
+    width:20%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.offer-item-details h2{
+    font-size: 1rem;
+    color: white;
+    background-color: #006d77;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-weight: 300;
+    width: 100%;
+}
+.new-offer-item-discount{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+.new-offer-item-discount h3{
+    font-size: 1.3rem;
+    color: #006d77;
+    font-weight: 300;
+    border: #006d77 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    padding: 0 10px;
+}
+.new-offer-item-discount span{
+    font-size: 2rem;
+    color: #006d77;
+    border: #006d77 1px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.offer-item-discount{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.offer-item-discount h3{
+    font-size: 1.3rem;
+    color: #006d77;
+    font-weight: 300;
+    border: #006d77 1px solid;
+    border-radius: 5px;
+    width: 65%;
+    padding: 10px;
+    text-align: center;
+}
+.offer-item-discount span{
+    font-size: 2rem;
+    color: #006d77;
+    border: #006d77 1px solid;
+    border-radius: 5px;
+    width: 20%;
+}
+.offer-item-list{
+    width: 70%;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+}
+.offer-item-list li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    width: 98%;
+    padding: 1%;
+    align-items: center;
+    border: #006d77 solid 1px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.offer-meal-info{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border-left: rgba(0, 0, 0, 0.634) solid 1px;
+}
+.offer-meal-info div{
+    border-radius: 10px!important;
+}
+.offer-meal-info span{
+    margin-right: 5px;
+}
+.offer-meal-info span h2{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.offer-meal-info span p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.offer-action{
+    position: absolute;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-action button{
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: #006d77;
+    border: 0;
+}
+
+.offer-price-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.offer-price-info h2{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.offer-price-info h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #006d77;
+}
+.offer-price-info a{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.offer-price-info svg{
+    margin-right: 10px;
+}
+.offer-price-info a svg{
+    rotate: -180deg;
+    margin-right: 0;
+}
+.offer-price-info h3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+.offer-list-con{
+    width:100%;
+    padding: 1%;
+    display: flex;
+}
+/* /////////// add offer css  */
+.add-offer-main-con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.add-offer-main-con h1{
+    align-self: flex-end;
+    font-size: 1.6rem;
+
+}
+.add-offer-form{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #006d77 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    padding: 2%;
+}
+.add-offer-form1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1%;
+    width: 100%;
+}
+.add-offer-form1 a{
+    width: 30px;
+    height: 30px;
+}
+
+.add-offer-present{
+    flex: 1 1 1%;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+}
+.add-offer-present input{
+    width: 80%;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    border: #006d77 solid 1px;
+}
+.add-offer-present h2{
+    margin-top: 5px;
+
+    font-size: 1.6rem;
+    height: 30px;
+    padding: 5px;
+    width: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #006d77 solid 1px;
+    margin-left: 5px;
+}
+.add-offer-type{
+    flex: 2 2 2%;
+    min-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.add-offer-type h2{
+    text-align: center;
+    margin-top: 5px;
+    width: 80%;
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    border: #006d77 solid 1px;
+    color: #006d77;
+}
+.add-offer-type button{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+    border-radius: 4px;
+    border: #006d77 solid 1px;
+    background-color: white;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.add-offer-type button svg{
+    width: 30px;
+    fill: #006d77;
+}
+.add-offer-action{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0;
+    background-color: #006d77;
+    color: white;
+    border-radius: 5px;
+}
+.add-offer-form2{
+    width: 100%;
+}
+.add-offer-item-list{
+    width: 100%;
+}
+.add-offer-item-list li{
+    position: relative;
+    list-style: none;
+    user-select: none;
+    min-width: 200px;
+    height: fit-content;
+    border: #006d77 solid 1px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    padding-right: 50px;
+    padding: 5px;
+}
+.add-offer-item-list li h2{
+    font-size: 1.2rem;
+    padding: 10px;
+    padding-right: 60px;
+}
+.add-offer-item-list li button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: #006d77 solid 1px;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+}
+.add-offer-item-list li button svg{
+    fill: #006d77;
+    width: 60%;
+}
+.add-offer-search-con{
+   margin-top: 20px;
+   width: 100%; 
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+.add-offer-search-con div{
+    width: 90%;
+    height: 40px;
+    border: #006d77 solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+}
+.add-offer-search-con div input{
+    height: 95%;
+    width: 100%;
+    border: 0;
+    font-size: 1.4rem;
+    direction: rtl;
+    z-index: 120;
+}
+
+.add-offer-search-con div button{
+    width: fit-content;
+    border: 0;
+}
+.add-offer-search-con button{
+    width: 40px;
+    height: 40px;
+    border: #006d77 solid 1px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-offer-search-con button span{
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #006d77;
+}
+.add-offer-search-con button a{
+    position: absolute;
+    rotate: 90deg;
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #006d77;
+    transition: .3s;
+}
+.add-offer-search-con ul{
+    position: absolute;
+    top: 120%;
+    width: 60%;
+    min-width: 300px;
+    padding: 15px;
+    height: 400px;
+    background-color: white;
+    z-index: 100;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+    border: #006d77 1px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    transition: .4s;
+}
+.add-offer-search-con ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 10px 0 10px 0 ;
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #006d77 solid 1px;
+    user-select: none;
+}
+.add-offer-search-con ul li h2{
+    font-size: 1.4rem;
+}
+.add-offer-search-con ul li button svg{
+    width: 70%;
+    fill: #006d77;
+}
+@media (max-width:1024px) {
+    /* /////////// offer list css  */
+    .offer-main-con{
+        width: 96%;
+    }
+    .offer-list-con{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .offer-item-con{
+        margin-top: 10px;
+        flex: 1 1 1%;
+        min-width: 300px;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: #006d77 solid 1px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+        border-radius: 10px;
+    }
+    .offer-item-details{
+        width:100%;
+        padding: 3%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .offer-item-details h2{
+        font-size: 1rem;
+        color: white;
+        background-color: #006d77;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom:10px;
+        font-weight: 300;
+        width: 25%;
+    }
+    .offer-item-discount{
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .offer-item-discount h3{
+        font-size: 1rem;
+        color: #006d77;
+        font-weight: 300;
+        border: #006d77 1px solid;
+        border-radius: 5px;
+        width: 65%;
+        padding: 10px;
+        text-align: center;
+    }
+    .offer-item-discount span{
+        font-size: 1.5rem;
+        color: #006d77;
+        border: #006d77 1px solid;
+        border-radius: 5px;
+        width: 20%;
+    }
+    .offer-item-list{
+        width: 100%;
+        direction: rtl;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+}
+@media (max-width:600px) {
+    /* /////////// offer list css  */
+    .offer-main-con{
+        width: 100%;
+        padding: 0;
+    }
+
+    .offer-list-con{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .offer-item-con{
+        margin-top: 10px;
+        flex: 1 1 1%;
+        min-width: 300px;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border: #006d77 solid 1px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+        border-radius: 10px;
+    }
+    .offer-item-details{
+        width:100%;
+        padding: 3%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2%;
+    }
+    .offer-item-details h2{
+        font-size: 1rem;
+        color: white;
+        background-color: #006d77;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom:10px;
+        font-weight: 300;
+        width: 25%;
+        flex: 1 1 1%;
+        min-width: 300px;
+    }
+    .offer-item-discount{
+        flex: 1 1 1%;
+        min-width: 300px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .offer-item-discount h3{
+        font-size: 1.3rem;
+        color: #006d77;
+        font-weight: 300;
+        border: #006d77 1px solid;
+        border-radius: 5px;
+        width: 65%;
+        padding: 10px;
+        text-align: center;
+    }
+    .offer-item-discount span{
+        font-size: 1.5rem;
+        color: #006d77;
+        border: #006d77 1px solid;
+        border-radius: 5px;
+        width: 20%;
+    }
+    .offer-item-list{
+        width: 100%;
+        direction: rtl;
+        display: flex;
+        flex-direction: unset;
+        flex-wrap: wrap;
+        gap: 3%;
+        padding: 1%;
+    }
+    .offer-item-list li{
+        flex: 1 1 1%;
+        min-width: 260px;
+        flex-direction: column;
+    }
+    .offer-meal-info{
+        width: 100%;
+        border-left: 0;
+    }
+}

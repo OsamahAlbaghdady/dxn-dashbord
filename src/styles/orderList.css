@@ -1,0 +1,212 @@
+.order-list-con {
+  width: 96%;
+  padding: 2%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-list-title-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-list-scroll {
+  margin-top: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+}
+.order-item-con {
+  width: 92%;
+  margin-top: 2vh;
+  padding: 2%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.6rem;
+}
+.order-item-action-con {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.order-item-action-reject {
+  cursor: pointer;
+  width: 28%;
+  padding: 2%;
+  border: 0;
+  border-radius: 0.3rem;
+  color: rgba(0, 0, 0, 0.542);
+}
+.order-item-action-accept {
+  cursor: pointer;
+  width: 28%;
+  padding: 2%;
+  border: 0;
+  border-radius: 0.3rem;
+  color: white;
+  background-color: #006d77;
+}
+#new-order {
+  color: #d64b45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#new-order::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #d64b45;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 2px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.order-item-info {
+  width: 30%;
+  padding-right: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border-right: solid rgba(0, 0, 0, 0.595) 1px;
+}
+.order-item-info svg {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+.order-item-info h1 {
+  margin-top: 0.5vh;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.order-item-info span {
+  display: flex;
+}
+.order-item-user {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 2%;
+}
+
+/* ////////////////mobile Css /////////////// */
+.order-list-scroll-mo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 2%;
+  column-gap: 2%;
+  height: fit-content;
+}
+.order-item-con-mo {
+  cursor: pointer;
+  flex: 1 1 1%;
+  position: relative;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2%;
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+
+#new-order-mo {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: #d64b45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+#new-order-mo::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #d64b45;
+  border-radius: 50%;
+  margin-left: 5px;
+  border: 2px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#new-order-motrue {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  color: #2ec114;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+#new-order-motrue::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #2ec114;
+  border-radius: 50%;
+  margin-left: 5px;
+  border: 2px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.order-item-user-mo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.order-item-user-mo div {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.order-item-user-mo div h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.order-item-user-mo span {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.order-item-user-mo span h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  position: relative;
+  width: fit-content;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 23px;
+  margin-top: 2px;
+}
+.order-item-user-mo span svg {
+  position: absolute;
+  width: 15px;
+  left: 0;
+  fill: black!important;
+}
+.order-item-user-mo span svg path{
+  fill: black!important;
+}

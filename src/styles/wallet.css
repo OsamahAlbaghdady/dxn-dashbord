@@ -1,0 +1,252 @@
+.wallet-main-con {
+  width: 76%;
+  height: fit-content;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid #006d77;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.wallet-main-con h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.wallet-bagt {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  align-items: center;
+}
+.wallet-bagt span {
+  display: flex;
+  flex: 1% 1% 1;
+  width: 45%;
+  padding: 2%;
+  border: 1px solid #006d77;
+  border-radius: 5px;
+  direction: rtl;
+  min-width: 200px;
+  margin-top: 10px;
+}
+.wallet-bagt span h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.wallet-bagt span h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.wallet-pills {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.wallet-pills-search {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 10px;
+}
+.wallet-pills-search span {
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  width: 50%;
+  min-width: 200px;
+  border-radius: 5px;
+  padding: 2%;
+  justify-content: space-between;
+}
+.wallet-pills-search span input {
+  width: 70%;
+  height: 100%;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.2rem;
+  direction: rtl;
+}
+.wallet-pills-search span svg {
+}
+.wallet-pills-search ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 50%;
+}
+.wallet-pills-search ul li {
+  list-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+  height: 30px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+  padding: 5px;
+}
+.wallet-pills-list {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.wallet-pill-title {
+  width: 100%;
+  background-color: #006d77;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.wallet-pill-title h2 {
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.wallet-pill-body {
+  position: relative;
+  width: 100%;
+  background-color: #83c5be;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wallet-pill-body-more {
+  position: absolute;
+  top: 110%;
+  width: 96%;
+  padding: 2%;
+  height: 200px;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #006d77 solid 1px;
+  border-radius: 10px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+.wallet-pill-body-more li {
+  user-select: none;
+  width: fit-content;
+  list-style: none;
+  background-color: #006d77;
+  padding: 10px;
+  color: #83c5be;
+  border-radius: 10px;
+}
+.add-contry-con {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-array {
+  width: 100%;
+  margin-top: 10px;
+}
+.input-array input {
+  width: 100px !important;
+  float: right;
+  margin: 5px;
+}
+.add-contry-con span {
+  flex: 1 1 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  min-width: 100px;
+}
+.add-contry-con-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add-contry-con button {
+  width: fit-content;
+  background-color: #006d77;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  border: 0;
+  color: white;
+  align-self: center;
+}
+.add-contry-con h2 {
+  font-size: 1.3rem;
+}
+.add-contry-con input {
+  width: 90%;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: #006d77 solid 1px;
+  border-radius: 5px;
+  direction: rtl;
+}
+
+.wallet-pill-body-more a {
+  width: 10px;
+}
+.input-array {
+}
+.wallet-pill-body h2 {
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1rem;
+}
+.new-wallet-pills {
+  width: 100%;
+  max-width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border: #006d77 1px dashed;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.new-wallet-pills h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #006d77;
+  align-self: center;
+}
+.new-wallet-pills span {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.new-wallet-pills h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.new-wallet-pills button {
+  width: 90%;
+  align-self: center;
+  background-color: #006d77;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 2%;
+  border: 0;
+  border-radius: 10px;
+}

@@ -1,0 +1,233 @@
+.section-main-con{
+    margin-top: 5vh;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+}
+.sectionsList-main-con{
+    width: 100%;
+    display:flex;
+    direction: rtl;
+}
+.pages-con{
+    width: fit-content;
+    align-self: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px ;
+    background-color: rgba(0, 0, 0, 0.284);
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+.pages-con h1{
+    width: 30px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.pages-con button{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    color: white;
+}
+.pages-con a{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.pages-con a svg{
+    width: 100%;
+    fill: white;
+}
+
+.sectionsList-main-con button{
+    width: fit-content;
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-wrap: nowrap;
+    background-color: #006d77;
+    overflow: hidden;
+    white-space: nowrap;
+    }
+.section-item-con{
+    width: 100%;
+    height: fit-content;
+    padding: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    direction: rtl;
+}
+.item-card-maincon{
+    position: relative;
+    flex: 1% 1% 1%;
+    margin-top: 20px;
+    direction: ltr;
+    min-width: 230px;
+    max-width: 260px;
+    height: 300px;
+    padding: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+
+}
+.item-card-con{
+    position: relative;
+    margin-top: 20px;
+    direction: ltr;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    transition: .3s;
+    transform-style: preserve-3d;
+
+}
+
+.item-card-button{
+    position: absolute;
+    left: -100px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    z-index: 10;
+    color: #edf6f9;
+    cursor: pointer;
+    transition: .3s;
+    background-color: #006d77;
+    padding: 5px;
+    border-radius: 20px;
+}
+.item-card-con:hover .item-card-button{
+    left: 10px;
+    top: 10px;
+}
+.item-card-button svg{
+    width: 22px;
+    fill:  #edf6f9;
+    
+}
+.item-card-con h4{
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.item-card-con h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.item-card-con h3{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #53a098;
+    margin-top: 10px;
+
+}
+.item-card-con button{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.item-card-con button svg{
+    width: 80%;
+}
+.item-card-image-con{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #83c5be;
+}
+.item-card-image-con img{
+    user-select: none;
+    width:70%;
+    z-index: 1;
+    transition: .3s;
+    background-color: #83c5be;
+}
+.item-card-image-con p{
+    position: absolute;
+    background-color: #00000062;
+    color: white;
+    z-index: 2;
+    bottom: -100%;
+    font-size: .81rem;
+    padding: 2%;
+    transition: .3s;
+}
+.item-card-image-con:hover img{
+    width: 100%;
+}
+.item-card-image-con:hover p{
+    /* bottom: 0%; */
+}
+.mostSell-main-con{
+    width: 96%;
+    padding:2%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+.mostSell-main-con .item-card-con{
+    margin: 10px;
+}
+.item-card-con-loading{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006d77;
+    transition: .3s;
+    transform-style: preserve-3d;
+
+}

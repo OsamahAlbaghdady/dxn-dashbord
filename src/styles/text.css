@@ -1,0 +1,161 @@
+.text1{
+    font-size: 4.5vw;
+    font-weight: 400;
+    background-color: transparent;
+}
+.text2{
+    font-size: 4.2vw;
+    font-weight: 400;
+    background-color: transparent;
+}
+.text3{
+    font-size: 4vw;
+    font-weight: 400;
+    background-color: transparent;
+}
+.text4{
+    font-size: 3.8vw;
+    font-weight: 400;
+    background-color: transparent;
+}
+.text5{
+    font-size: 3.5vw;
+    font-weight: 300;
+    background-color: transparent;
+}
+.text6{
+    font-size: 3.3vw;
+    font-weight: 300;
+    background-color: transparent;
+}
+.text7{
+    font-size: 3vw;
+    font-weight: 100;
+    background-color: transparent;
+}
+
+ /* @media (min-width: 564px) {
+    .text1{
+        font-size: 1.8rem;
+    }
+    .text2{
+        font-size: 1.7rem;
+    }
+    .text3{
+        font-size: 1.6rem;
+    }
+    .text4{
+        font-size: 1.5rem;
+    }
+    .text5{
+        font-size: 1.4rem;
+    }
+    .text6{
+        font-size: 1.3rem;
+    }
+    .text7{
+        font-size:.1.2rem;
+    }
+    .text8{
+        font-size:1.1rem;
+    }
+    .text9{
+        font-size:1rem;
+    }
+ }
+ @media (min-width: 1024px) {
+    .text1{
+        font-size: 1.9rem;
+    }
+    .text2{
+        font-size: 1.8rem;
+    }
+    .text3{
+        font-size: 1.6rem;
+    }
+    .text4{
+        font-size: 1.4rem;
+    }
+    .text5{
+        font-size: 1.4rem;
+    }
+    .text6{
+        font-size: 1.2rem;
+    }
+    .text7{
+        font-size:1rem;
+    }
+    .text8{
+        font-size:0.8rem;
+    }
+    .text9{
+        font-size:0.6rem;
+    }
+ }
+ @media (min-width: 1280px) {
+    .text1{
+        font-size: 2rem;
+    }
+    .text2{
+        font-size: 1.8rem;
+    }
+    .text3{
+        font-size: 1.6rem;
+    }
+    .text4{
+        font-size: 1.4rem;
+    }
+    .text5{
+        font-size: 1.4rem;
+    }
+    .text6{
+        font-size: 1.2rem;
+    }
+    .text7{
+        font-size:1rem;
+    }
+    .text8{
+        font-size:0.8rem;
+    }
+    .text9{
+        font-size:0.6rem;
+    }
+ } */
+
+@media (min-width: 924px){
+    .text1{
+        font-size: 2.5vw;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    .text2{
+        font-size: 2.2vw;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    .text3{
+        font-size: 2vw;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    .text4{
+        font-size: 1.8vw;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    .text5{
+        font-size: 1.5vw;
+        font-weight: 300;
+        background-color: transparent;
+    }
+    .text6{
+        font-size: 1.3vw;
+        font-weight: 200;
+        background-color: transparent;
+    }
+    .text7{
+        font-size: 1vw;
+        font-weight: 100;
+        background-color: transparent;
+    }
+}

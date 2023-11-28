@@ -1,0 +1,277 @@
+.ArchiveList-department {
+  display: flex;
+  flex-direction: row;
+}
+.department-archive-item-con {
+  position: relative;
+  width: 260px;
+  margin: 2vw;
+  margin-top: 50px;
+  padding: 2vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #006d77 solid 1px;
+  border-radius: 1rem;
+}
+.new-department-archive-item-con {
+  margin: 2vw!important;
+  margin-top: 20px!important;
+  padding: 2vh!important;
+}
+
+.department-archive-item-image-con {
+  width: 70%;
+  position: absolute;
+  top: -45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.new-department-archive-item-image-con {
+  width: fit-content;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
+.department-archive-item-trash {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ff3f5b;
+}
+
+.department-archive-item-edit {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #006d77;
+}
+.department-archive-item-con span {
+  margin-top: 2vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 90%;
+}
+.department-archive-item-con span svg {
+  position: absolute;
+  right: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 15%;
+}
+.department-archive-item-con span h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/* //////////////// add department css  */
+.AddDepartment-con {
+    width: 90%;
+    margin-left: 1%;
+    padding: 3%;
+    margin-top: 30PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #006d77 solid 1px;
+    height: fit-content;
+    align-self: center;
+    position: relative;
+    border-radius: 2rem;
+  }
+  .AddDepartment-con h1{
+    font-size: 1.4rem;
+  }
+  .AddDepartment-input-file {
+    position: absolute;
+    top: -15vw;
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    border-radius: 50%;
+    border: #006d77 solid 1px;
+    overflow: hidden;
+  }
+@media (min-width: 550px) {
+.AddDepartment-con {
+  width: 90%;
+  margin-left: 1%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #006d77 solid 1px;
+  height: fit-content;
+  align-self: center;
+  position: relative;
+  padding-top: 100px;
+  border-radius: 2rem;
+}
+.AddDepartment-input-file {
+  position: absolute;
+  top: -10vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border-radius: 50%;
+  border: #006d77 solid 1px;
+  overflow: hidden;
+}
+}
+@media (min-width: 924px) {
+    .AddDepartment-con {
+        width: 70%;
+        margin-left: 1%;
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #006d77 solid 1px;
+        height: 66vh;
+        align-self: center;
+        position: relative;
+        border-radius: 2rem;
+      }
+  .AddDepartment-input-file {
+    position: absolute;
+    top: -90px;
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    border-radius: 50%;
+    border: #006d77 solid 1px;
+    overflow: hidden;
+  }
+}
+
+.AddDepartment-input-file img {
+  position: absolute;
+  width: cover;
+  height: cover;
+  min-width: 103%;
+  min-height: 100%;
+  z-index: 5;
+  background-color: white;
+}
+.AddDepartment-input-file input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0;
+  cursor: pointer;
+}
+.AddDepartment-input-con {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AddDepartment-input-con span {
+  position: relative;
+  width: 98%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #006d77 solid 1px;
+  margin-top: 1vh;
+  border-radius: 0.5rem;
+}
+.AddDepartment-input-con span input {
+  width: 90%;
+  padding-right: 1%;
+  height: 100%;
+  background-color: transparent;
+  border: 0;
+  padding: 5px 0;
+  font-size: 1.3rem;
+  direction: rtl;
+}
+.AddDepartment-input-con span svg {
+    height: 70%;
+  }
+.AddDepartment-input-con span h1 {
+  color: rgba(0, 0, 0, 0.791);
+  width: 90%;
+  padding-right: 1%;
+  border: 0;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+}
+.AddDepartment-img {
+    height: 60%;
+    max-width: 90%;
+}
+.AddDepartment-con button {
+  width: 97%;
+  padding: 1.5%;
+  border: 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.dropList-con {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 96%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-color: white;
+  border: #006d77 solid 1px;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  height: fit-content;
+  max-height: 30vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  z-index: 0;
+}
+.dropList-con h1 {
+  margin-bottom: 2vh;
+  cursor: pointer;
+}
+.dropList-con a {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+@media (min-width: 1024px) {
+    .ArchiveList-department {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      flex-direction: column;
+    }
+    .department-archive-item-con {
+      position: relative;
+      width: 80%;
+      margin: 0;
+      margin-top: 50px;
+      padding: 2vh;
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: #006d77 solid 1px;
+      border-radius: 1rem;
+    }
+    .new-department-archive-item-con {
+      margin-top: 2vw!important;
+      padding: 2vh!important;
+      padding-top: 2vh!important;
+    }
+  }

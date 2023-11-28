@@ -1,0 +1,49 @@
+.login-con{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px #006d77 solid;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+.login-con svg{
+    width: 150px;
+}
+.login-con span{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-con span h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 5px;
+    align-self: flex-start;
+}
+.login-con input{
+    width: 80%;
+    font-size: 1.2rem;
+    height: 30px;
+    font-weight: 200;
+    border: 2px #006d77 solid;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.5rem;
+}
+ 
+.login-con button{
+    width: 90%;
+    font-size: 1.5rem;
+    border: 2px #006d77 solid;
+    background-color: #006d77;
+    border-radius: 10px;
+    position: relative;
+    padding: 0.5rem;
+    overflow: hidden;
+    color: white;
+}
